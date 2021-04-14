@@ -7,8 +7,7 @@
 
 ## Todo List
 
-### Simulating Algorithm
-General Topological Code Simulator
+### Methods
 
 #### Stabilizer Simulator by Gottesman-Knill Theorem
 Given a graph, output its 
@@ -17,10 +16,10 @@ Given a graph, output its
 by Gottesman-Knill Theorem
 - Probability outputs
 
-#### Fast approximation algorithm
+#### Fast Approximation Algorithm
 - [Scott Aaronson et al's CHP simulator](https://arxiv.org/abs/quant-ph/0406196), based on the stabilizer tableau representation (used in Stim simulator).
 
-### Visualization tools
+### Visualization Tools
 
 ### Transpiler
 - Given a resource state and a quantum circuit, convert the quantum circuit into the adaptive measurement procedure in the resource state
@@ -32,7 +31,7 @@ by Gottesman-Knill Theorem
 
 - [rustacuda](https://lib.rs/crates/rustacuda), a CUDA API in Rust
 
-#### APIs
+#### Python Bindings
 
 - [PyO3](https://crates.io/crates/pyo3), Rust bindings for Python.
 
@@ -42,4 +41,7 @@ by Gottesman-Knill Theorem
 2. [Qiskit Surface Code Encoder/Decoder](https://github.com/yaleqc/qiskit_surface_codes) by Yale Quantum Computing
 3. [Surface Codes and Error Correction](https://github.com/The-Singularity-Research/QISKit-Surface-Codes) by Dr. Amelie Schreiber
 4. [Stim](https://github.com/quantumlib/stim) in quantumlib by Google
+5. [Surface Code](https://github.com/GuanQunMu/Surface-Code) by GuanQunMu
+6. [QTop](https://github.com/jacobmarks/QTop), a visualization tool for topological code
+7. [List of Packages](https://github.com/topics/topological-quantum-computation)
 
