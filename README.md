@@ -1,13 +1,13 @@
-# The Simulator of Quantum Computation with Topological Codes
+# The Simulator of Quantum Computation with Error Corrections
 
 ## Abstract
 
-- A fast simulator for topological quantum computation and topological error correction.
+- A fast simulator for quantum computation and error correction.
 - A transpiler of topological computation model.
 
 ## Todo List
 
-### Methods
+### Features
 
 #### Stabilizer Simulator by Gottesman-Knill Theorem
 Given a graph, output its 
@@ -15,6 +15,11 @@ Given a graph, output its
 - stabilizer generators (output the generators with indicated pauli operators, X, Y, Z?)
 by Gottesman-Knill Theorem
 - Probability outputs
+
+#### Measurement-based Quantum Computation
+
+- quantum computation on various graph structures
+- topologically protected quantum computation
 
 #### Fast Approximation Algorithm
 - [Scott Aaronson et al's CHP simulator](https://arxiv.org/abs/quant-ph/0406196), based on the stabilizer tableau representation (used in Stim simulator).
